@@ -1,4 +1,5 @@
-import javax.swing.text.Position;
+import enums.Position;
+
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;

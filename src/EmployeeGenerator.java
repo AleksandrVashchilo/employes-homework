@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import enums.Position;
 
 public class EmployeeGenerator {
 
@@ -26,7 +25,7 @@ public class EmployeeGenerator {
 
         String line;
         while ((line = bufferedReader.readLine()) != null) {
-            String[] parsedName = line.split("  ");
+            String[] parsedName = line.split(" ");
             Employee employee = new Employee(
                     parsedName[0],
                     parsedName[1],

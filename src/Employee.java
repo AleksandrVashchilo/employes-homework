@@ -1,4 +1,5 @@
-import javax.swing.text.Position;
+import enums.Position;
+
 import java.math.BigDecimal;
 import java.util.Objects;
 
